@@ -5,9 +5,90 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+    <title>Комментарии</title>
 </head>
 <body>
+
+    <section id="comments">
+        <div class="container bg-light">
+            <div class="row">
+
+                <div class="col-12 mt-3">
+                    <div class="card">
+                        <div class="card-header">
+                            Имя
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                текст комментария
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 mt-3">
+                    <div class="card">
+                        <div class="card-header">
+                            Имя
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">
+                                текст комментария
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section id="form-add-comment">
+        <div class="container bg-light pt-4 pb-4">
+            <div class="row">
+
+                <div class="col-12">
+                    <h6 class="text-center mt-2 mb-4">
+                        Добавить комментарий
+                    </h6>
+                    <form class="container">
+                        <div class="form-group row">
+                            <label for="name" class="col-form-label col-2">
+                                Ваше имя:
+                            </label>
+                            <input type="text" id="name"
+                                   class="form-control col-10">
+                        </div>
+                        <div class="form-group row">
+                            <label for="message" class="col-form-label col-2">
+                                Ваш комментарий:
+                            </label>
+                            <textarea type="text" id="message" rows="2"
+                                   class="form-control col-10">
+                            </textarea>
+                        </div>
+
+                        <div class="row">
+                            <button type="button"
+                                    class="btn btn-primary btn-block">
+                                Отправить
+                            </button>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <script>
+
+    </script>
 
 </body>
 </html>
