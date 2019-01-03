@@ -47,7 +47,7 @@
     </section>
 
 
-    <section id="form-add-comment">
+    <section>
         <div class="container bg-light pt-4 pb-4">
             <div class="row">
 
@@ -55,12 +55,12 @@
                     <h6 class="text-center mt-2 mb-4">
                         Добавить комментарий
                     </h6>
-                    <form class="container">
+                    <form class="container" id="idFormComment" name="formAddComment">
                         <div class="form-group row">
                             <label for="name" class="col-form-label col-2">
                                 Ваше имя:
                             </label>
-                            <input type="text" id="name"
+                            <input type="text" id="name" name="name"
                                    class="form-control col-10">
                         </div>
                         <div class="form-group row">
@@ -68,12 +68,11 @@
                                 Ваш комментарий:
                             </label>
                             <textarea type="text" id="message" rows="2"
-                                   class="form-control col-10">
-                            </textarea>
+                                   class="form-control col-10"></textarea>
                         </div>
 
                         <div class="row">
-                            <button type="button"
+                            <button type="submit"
                                     class="btn btn-primary btn-block">
                                 Отправить
                             </button>
@@ -86,9 +85,7 @@
     </section>
 
 
-    <script>
-
-    </script>
+    <script src="js/main.js"></script>
 
 </body>
 </html>
